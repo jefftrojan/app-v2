@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "744710698081",
+    "project_id": "shebaplastic-e2364",
+    "storage_bucket": "shebaplastic-e2364.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744710698081:android:ee068f0b02d3881043e620",
+        "android_client_info": {
+          "package_name": "tech.shebaplastic.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744710698081-0rrh6i8kjc9886roqbr8e8kcudopta8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.shebaplastic.app",
+            "certificate_hash": "f0986bb315ee651805de7e6afe11326eb6cece04"
+          }
+        },
+        {
+          "client_id": "744710698081-c69mrqm3vsjugfarcl757b6cnsmb8qi5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.shebaplastic.app",
+            "certificate_hash": "f8418464c587959e86b9feece7ca3918d3f28403"
+          }
+        },
+        {
+          "client_id": "744710698081-1kgvnrs12ppfa74bma7g1ualavfsuq0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAMihYI21xbM3n45FEFFLrpW6vJsIEAuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744710698081-1kgvnrs12ppfa74bma7g1ualavfsuq0g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "744710698081-bseud2cu35qslk5bg9h4k7uelorftkvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tech.shebaplastic.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

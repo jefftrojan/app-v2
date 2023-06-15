@@ -1,0 +1,53 @@
+import 'package:flutter/material.dart';
+
+class ThemeConfig {
+  //Colors for theme
+  static Color lightPrimary = Color(0xff44B8A7);
+  static Color darkPrimary = Color(0xff1f1f1f);
+  static Color lightAccent = Color(0xff99CCA5);
+  static Color darkAccent = Color(0xff99CCA5);
+  static Color lightBG = Color(0xfffcfcff);
+  static Color darkBG = Color(0xff121212);
+  static Color badgeColor = Colors.red;
+
+  static ThemeData lightTheme = ThemeData(
+    primaryColor: lightPrimary,
+    scaffoldBackgroundColor: lightBG,
+    appBarTheme: AppBarTheme(
+      elevation: 0, toolbarTextStyle: TextTheme(
+        titleLarge: TextStyle(
+          color: darkBG,
+          fontSize: 18.0,
+          fontWeight: FontWeight.w800,
+        ),
+      ).bodyMedium, titleTextStyle: TextTheme(
+        titleLarge: TextStyle(
+          color: darkBG,
+          fontSize: 18.0,
+          fontWeight: FontWeight.w800,
+        ),
+      ).titleLarge,
+    ), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: lightAccent),
+  );
+
+  static ThemeData darkTheme = ThemeData(
+    brightness: Brightness.dark,
+    primaryColor: darkPrimary,
+    scaffoldBackgroundColor: darkBG,
+    appBarTheme: AppBarTheme(
+      elevation: 0, toolbarTextStyle: TextTheme(
+        titleLarge: TextStyle(
+          color: lightBG,
+          fontSize: 18.0,
+          fontWeight: FontWeight.w800,
+        ),
+      ).bodyMedium, titleTextStyle: TextTheme(
+        titleLarge: TextStyle(
+          color: lightBG,
+          fontSize: 18.0,
+          fontWeight: FontWeight.w800,
+        ),
+      ).titleLarge,
+    ), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: darkAccent),
+  );
+}
